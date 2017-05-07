@@ -1,0 +1,61 @@
+.background-header {
+  background: linear-gradient(to bottom, #2e4600, #486b00);
+  background-repeat: no-repeat;
+}
+.background-body {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), url(https://scontent.ffln1-1.fna.fbcdn.net/v/t1.0-9/16473094_413328349008381_8149076093957730408_n.jpg?oh=4dc954b8b3791a2810383cbc0cfe1e2b&oe=59778403);
+  background-repeat: repeat-x;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.header {
+    display: block;
+    margin: auto;
+    max-height: 400px;
+    padding: 10px;
+}
+.missmoo-pic {
+  display: block;
+  padding-left: 25px;
+}
+h1 {
+  float: right;
+  font-family: "lucida console", sans-serif;
+  font-size: 48px;
+  margin:auto;
+  width:60%;
+  padding-right: 60px;
+  padding-top: 80px;
+}
+h2 {
+  float: right;
+  font-family: "lucida console", sans-serif;
+
+  width:60%;
+
+
+}
