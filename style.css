@@ -1,10 +1,11 @@
 .background-header {
-  background: linear-gradient(to bottom, #2e4600, #486b00);
+  background: linear-gradient(to bottom, #526E59, #ADCA91);
   background-repeat: no-repeat;
 }
 .background-body {
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), url(https://scontent.ffln1-1.fna.fbcdn.net/v/t1.0-9/16473094_413328349008381_8149076093957730408_n.jpg?oh=4dc954b8b3791a2810383cbc0cfe1e2b&oe=59778403);
-  background-repeat: repeat-x;
+  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), url(https://scontent.ffln1-1.fna.fbcdn.net/v/t1.0-9/16473094_413328349008381_8149076093957730408_n.jpg?oh=4dc954b8b3791a2810383cbc0cfe1e2b&oe=59778403);
+  background-repeat: repeat-x;*/
+
 }
 
 ul {
@@ -12,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #425C4F;
 }
 
 li {
@@ -21,7 +22,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +30,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #EEEAB6;
 }
 
 .header {
@@ -41,6 +42,7 @@ li a:hover {
 .missmoo-pic {
   display: block;
   padding-left: 25px;
+  width: 120px;
 }
 h1 {
   float: right;
@@ -49,13 +51,68 @@ h1 {
   margin:auto;
   width:60%;
   padding-right: 60px;
-  padding-top: 80px;
+  padding-top: 20px;
 }
-h2 {
-  float: right;
-  font-family: "lucida console", sans-serif;
+.products-list {
+  background-color: white;
+}
+em {
+  font-size: 24px;
+}
+.flex-container {
+  display: -webkit-flex;
+    display: flex;
+ -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to bottom, #ADCA91, #526E59);
+  /*  background-color: #ddbc95;*/
+    text-align: center;
 
-  width:60%;
+
+}
+
+.flex-item {
+  background-color: #EEEAB6;
+  margin: 75px;
+  width: 80%;
+
+}
 
 
+.item1 {
+  -webkit-flex: 1;
+    flex: 1;
+    }
+.mySlides {
+  display:none
+
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer
+}
+.w3-badge {
+  height:13px;
+  width:13px;
+  padding:0
+}
+
+
+
+}
+
+.item2 {
+  -webkit-flex: 2;
+    flex: 2;
+    width: 500px;
+
+}
+.item3 {
+  -webkit-flex: 1;
+    flex: 1;
+
+
+}
+table {
+  margin: auto;
 }
